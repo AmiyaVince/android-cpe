@@ -1,0 +1,6 @@
+id=cpe_net
+name=CPE Net
+version=0.1.0
+versionCode=1
+author=HaoRan
+description=一加 10 Pro CPE 化网络模块：给 USB 网卡(eth0)自动配网关 IP + DHCP + NAT，把 5G 分享给下游；不依赖 ColorOS 的共享开关

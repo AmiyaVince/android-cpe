@@ -1,0 +1,34 @@
+# 本地产物
+*.csv
+*.log
+*.log.1
+__pycache__/
+*.pyc
+
+# 构建中间目录
+build/
+classes/
+dexout/
+
+# 设备备份 / 抓包 / 截图
+Rootbackup/
+tmp/
+_archive/
+fttr_dump/
+apk/
+*.img
+*.tar.gz
+
+# 凭据与配置（只提交 .example）
+sms.conf
+net.conf
+config.conf
+luci_cookies.txt
+lan.html
+*.cookies
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

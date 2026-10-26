@@ -1,0 +1,6 @@
+id=cpe_sms
+name=CPE SMS
+version=0.1.0
+versionCode=1
+author=HaoRan
+description=一加 10 Pro CPE 化短信模块：inotify 监听短信库 + 增量查询，把新短信实时推到 iPhone(Bark)。不装第三方 App、不占常驻内存、不依赖 ColorOS 保活

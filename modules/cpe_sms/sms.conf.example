@@ -1,0 +1,27 @@
+# cpe_sms 配置（部署时复制到 /data/adb/cpe/sms.conf）
+# 改完保存即可，看门狗会在下一轮热加载，不用重启。
+
+# ---- Bark ----
+BARK_SERVER=https://api.day.app
+# iPhone 上 Bark App 首页那条链接的最后一段
+# 自建服务端时把 BARK_SERVER 改成自己的地址
+BARK_KEY=__BARK_KEY__
+
+# ---- 通知样式 ----
+GROUP=cpe-sms
+SOUND=default
+# active / timeSensitive / passive（timeSensitive 能穿透专注模式）
+LEVEL=active
+TITLE_PREFIX=短信
+# 点通知时把正文复制到剪贴板（收验证码很方便）
+COPY_ON_TAP=1
+
+# ---- 行为 ----
+# 首次安装是否补发历史短信（0=只转发装好之后的新短信）
+FORWARD_EXISTING=0
+RETRY=3
+MAX_BATCH=20
+# inotify 触发后等多久再读（给 SQLite 提交留时间，单位秒）
+DEBOUNCE=1
+# 兜底轮询间隔（单位秒）
+POLL=60

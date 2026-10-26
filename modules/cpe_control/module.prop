@@ -1,0 +1,6 @@
+id=cpe_control
+name=CPE Control
+version=0.1.0
+versionCode=1
+author=HaoRan
+description=一加 10 Pro CPE 化开机脚本：内核原生充电上限 45/50 + 看门狗自愈（重启后自动重新生效）

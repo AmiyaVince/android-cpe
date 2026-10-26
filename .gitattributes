@@ -1,0 +1,11 @@
+# 仓库里的 shell 脚本最终要跑到 Android 上，CRLF 会让 shebang 失效
+* text=auto eol=lf
+
+*.sh   text eol=lf
+*.prop text eol=lf
+*.java text eol=lf
+
+*.png  binary
+*.dex  binary
+*.jar  binary
+*.img  binary
